@@ -2,6 +2,10 @@
 
 > 默认4位
 
+## 效果展示
+
+![demo](demo.gif)
+
 ## 局部引入
 ```vue
 <template>
