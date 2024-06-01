@@ -1,0 +1,44 @@
+{
+  "name": "@agarics/sms-code-input",
+  "version": "1.10.0",
+  "type": "module",
+  "author": "Agarics <371889758@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Agarics/sms-code-input.git"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/sms-code-input.js",
+      "require": "./dist/sms-code-input.umd.cjs"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "main": "./dist/sms-code-input.umd.cjs",
+  "module": "./dist/sms-code-input.js",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "vue3",
+    "sms",
+    "phone code",
+    "input",
+    "phone code input"
+  ],
+  "description": "phone code input",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build"
+  },
+  "dependencies": {
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "less": "^4.2.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  }
+}
